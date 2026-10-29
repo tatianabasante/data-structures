@@ -141,7 +141,7 @@ while True:
 
         case '3':
             os.system('clear')
-            print(Search user ::: \n )
+            print("Search user ::: \n")
             id_user = input("Enter identification number to search: ") 
             i = 0
             j = 0
@@ -152,7 +152,6 @@ while True:
             if j > 0 :
                 print(f"Ident.user: {ids[i]}")
                 print(f"Fullname: {firtsnames[i]} {lastnames[i]}")
-                print(f"Mobile phone: {mobile_phones[i]}")
                 print(f"Mobile phone: {mobile_phones[i]}")
                 print(f"Email: {emails[i]}")
                 print(f"Gender: {genders[i]}")
